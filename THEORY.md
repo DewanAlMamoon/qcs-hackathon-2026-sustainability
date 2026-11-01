@@ -1,7 +1,3 @@
-$$
-A|u_j\rangle = \lambda_j|u_j\rangle
-$$
-
 Academic Theory Compendium: Quantum & Sustainability Hackathon 2026
 This compendium establishes the rigorous mathematical and theoretical formulations behind all five project tracks for the ICTP-SAIFR Quantum & Sustainability Hackathon 2026.
 ---
@@ -53,9 +49,10 @@ This compendium establishes the rigorous mathematical and theoretical formulatio
 Electronic structure simulation requires resolving the molecular electronic Hamiltonian in second-quantized form:
 
 $$
-\hat{H} = \sum_{pq} h_{pq} a_p^\dagger a_q
-+ \frac{1}{2} \sum_{pqrs} h_{pqrs} a_p^\dagger a_q^\dagger a_s a_r
+\hat{H} = \sum_{pq} h_{pq} a_p^\dagger a_q + \frac{1}{2} \sum_{pqrs} h_{pqrs} a_p^\dagger a_q^\dagger a_s a_r
 $$
+
+---
 
 Here, $h_{pq}$ and $h_{pqrs}$ are the one- and two-electron integrals calculated using classical Hartree–Fock methods.
 
